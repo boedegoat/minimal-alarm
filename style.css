@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  min-height: 100vh;
+}
+
+input {
+  border: 0;
+  font-family: inherit;
+  outline: 0;
+  display: inline-block;
+  background: transparent;
+  color: inherit;
+}
+
+button {
+  background: transparent;
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.greeting {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.greeting-name {
+  font-size: inherit;
+  font-weight: bold;
+  width: auto;
+}
+
+.clock {
+  font-weight: bold;
+  font-size: clamp(50px, 5vw, 200px);
+}
+
+.alarm {
+  padding: 1em 1.5em;
+  margin: auto;
+  margin-top: 5em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  max-width: max-content;
+}
